@@ -1,0 +1,42 @@
+body{
+    background-color:#E2E8F0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.sidebar{
+    background-color:#1892D4;
+    color: #fff;
+    height: 110vh;
+}
+
+.header{
+    background-color:white;
+}
+
+.topheader{
+    display: flex; justify-content: space-between;
+}
+
+.botheader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botheader ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botheader ul li{
+    margin: 0px 5px 0px 5px;
+    list-style: none;
+}
+
+.mainHeader{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
